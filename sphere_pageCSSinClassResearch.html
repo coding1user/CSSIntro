@@ -251,10 +251,10 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><label for="height">Height:</label></td>
+                    <td><label for="conHeight">Height:</label></td>
                     <td><input type="text"
-                               id="height"
-                               name="height"
+                               id="coneHeight"
+                               name="coneHeight"
                                required>
                     </td>
                 </tr>
@@ -272,6 +272,50 @@
                         <input  type="submit"
                                 class="sbmt"
 								id="coneSubmit"
+                                value="Calculate">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <form method="get"
+          id="cylForm">
+        <!--This is for cylinders:-->
+        <fieldset>
+            <h3>Cylinders:</h3>
+            <img src="img/PurpleCylinder.gif">
+            <table>
+                <tr>
+                    <td><label for="cylRadius">Radius:</label></td>
+                    <td><input type="text"
+                               id="cylRadius"
+                               name="cylRadius"
+                                required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cylHeight">Height:</label></td>
+                    <td><input type="text"
+                               id="cylHeight"
+                               name="cylHeight"
+                               required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cylVolume">Volume:</label></td>
+                    <td><input type="text"
+                               id="cylVolume"
+                               name="cylVolume"
+                               readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input  type="submit"
+                                class="sbmt"
+								id="cylSubmit"
                                 value="Calculate">
                     </td>
                 </tr>
